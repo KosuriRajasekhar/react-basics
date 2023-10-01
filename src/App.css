@@ -1,0 +1,60 @@
+/* @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: #fff;
+    font-size: 12px;
+}
+.header-icon svg{
+    height: 32px;
+    width: 32px;
+    color: #fff;
+}
+main {
+    text-align: center;
+}
+main h3 {
+    margin: 50px 0px;
+    font-weight: 300;
+}
+main h1{
+    font-weight: 500;
+}
+main button {
+    color: #fff;
+    background-color: #026e00;
+    border: none;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 4px;
+    padding: 22px 48px;
+    margin: 14px 4px;
+}
+main button span {
+    font-size: 14px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 23px 4px;
+}
